@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JSON Placeholder API</title>
+  <style>
+    .skeleton-loader {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .skeleton-row {
+      height: 20px;
+      background-color: #e0e0e0;
+    }
+
+    .data-container {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="skeleton-loader">
+    <div class="skeleton-row"></div>
+    <div class="skeleton-row"></div>
+    <div class="skeleton-row"></div>
+    <div class="skeleton-row"></div>
+    <div class="skeleton-row"></div>
+  </div>
+
+  <div class="data-container">
+    <h1>JSON Placeholder API</h1>
+    <ul id="data-list"></ul>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
